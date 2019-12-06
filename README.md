@@ -16,6 +16,26 @@
 
 Sistema de barbearia para agendamento de serviços.
 
+### Rodar Servidor Docker e os Bancos de Dados envolvidos
+
+Visualiza todos os bancos criados no Docker.
+
+```
+docker ps -a
+```
+
+Visualiza apenas os bancos que estão ativos no Docker.
+
+```
+docker ps
+```
+
+Inicializa os bancos no Docker.
+
+```
+docker start database mongobarber redisbarber
+```
+
 ## Passo a passo das instalações de todas as bibliotecas e plugins:
 
 ### 1º Passo: Instalar Cors
